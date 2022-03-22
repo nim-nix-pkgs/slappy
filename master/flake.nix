@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-slappy-master.flake = false;
+  inputs.src-slappy-master.ref   = "refs/heads/master";
   inputs.src-slappy-master.owner = "treeform";
-  inputs.src-slappy-master.ref   = "master";
   inputs.src-slappy-master.repo  = "slappy";
   inputs.src-slappy-master.type  = "github";
   
